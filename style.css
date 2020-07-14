@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "digital-7";
+    src: url(kurri-island/KurriIslandCapsPERSONAL-Bold.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #181717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    margin-top: 60px;
+    border: 5px solid #2377d7;
+  }
+  .heading {
+    font-family: "digital-7";
+    color: #2377d7;
+    font-size: 2em;
+    text-align: center;
+  }
+  .stopwatch {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .stopwatch > h2 {
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+    font-family: digital-7;
+    font-size: 4em;
+    color: #2377d7;
+  }
+  .stopwatchBtns > button {
+    padding: 5px 23px;
+    margin: 10px 5px;
+    background-color: #2377d7;
+    color: #181717;
+    border: none;
+    border-radius: 10px;
+    font-family: digital-7;
+    font-weight: bold;
+  }
